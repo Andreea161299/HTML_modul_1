@@ -1,0 +1,56 @@
+:root{
+    --blue-primary:    
+    --primary-grey: #9DA4BD99;
+
+    
+    
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.header-link{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    letter-spacing: 0.1em;
+}
+
+.header-link-active, 
+.header-link:hover{
+    color: var(--primary-color);
+}
+
+.main-header{
+    background-color: var(--blue-primary);
+}
+
+.primary-button{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    letter-spacing: 0.09em;
+    color: var(--white-text);
+    cursor: pointer;
+}
+
+.hero-section{
+    background-color: var(--blue-primary);
+}
+
+.hero.subtitle{
+    font-family:  Open Sans;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 14.98px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: var(--primary-grey)
+}
+
+.hero-title{
+
+}
+
