@@ -1,3 +1,13 @@
+/* Styles reset */
+  h1, h2, h3, h4, h5, h6, p { margin: 0;}
+  html {box-sizing: border-box;}
+  *, *::after, ::before {box-sizing: inherit;}
+  img { display:block; max-width: 100%; height: auto;}
+  address { font-style: normal; }
+  .link {text-decoration: none; color:inherit; }
+  .list {list-style: none; padding: 0; margin: 0;}
+/* End style reset */
+
 :root{
  --primary-color: #FF6C00;
  --text-white: #FFFFFF;
@@ -11,6 +21,25 @@
 
 body{
   font-family: "Open Sans", sans-serif;
+}
+
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 130px 55px;
+}
+
+.header-container{
+  padding: 40px 55px;
+}
+
+.header-list .header-item{
+  display: inline;
+  margin-left: 48px;;
+}
+
+.header-list .header-item:first-child{
+  margin-left: 48px;;
 }
 
 .header-link{
@@ -38,6 +67,15 @@ body{
   letter-spacing: 0.09em;
   color:var(--text-white);
   cursor: pointer;
+  padding-top: 12px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 12px;
+  border: 1px solid #FF6C00;
+  background-color:inherit;
+  color: var(#FFFFFF)
+  border-radius: 100px;
+
 }
 
 .hero-section{
@@ -100,4 +138,9 @@ font-size: 14px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0.02em;
+}
+
+
+.list{
+
 }
