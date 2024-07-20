@@ -51,7 +51,7 @@ body {
 .container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 156px 120px;
+  padding: 0px 55px;
 }
 
 .section{
@@ -63,6 +63,12 @@ body {
 
 .header-container {
   padding: 40px 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
 }
 
 .header-list .header-item {
@@ -71,7 +77,13 @@ body {
 }
 
 .header-list .header-item:first-child {
-  margin-left: 0;
+  margin-left: 20px;
+}
+
+.header-address {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
 }
 
 .header-link {
@@ -135,6 +147,21 @@ body {
   line-height: 30px;
   letter-spacing: 0.02em;
   color: var(--primary-grey);
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-container .about-images-container {
+  display: flex;
+  column-gap: 30px;
+  flex: 0 0 50%;
+
+}
+
+.about-container .about-text-container {
+  
 }
 
 .section-subtitle {
