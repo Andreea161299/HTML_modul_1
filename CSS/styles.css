@@ -76,8 +76,9 @@ body {
   margin-left: 40px;
 }
 
-.header-list .header-item:first-child {
-  margin-left: 20px;
+
+.header-list .header-item:first-child { 
+  margin-left: 0;
 }
 
 .header-address {
